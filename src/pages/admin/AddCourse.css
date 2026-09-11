@@ -1,0 +1,39 @@
+.course-form{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.course-form input,
+.course-form select,
+.course-form textarea{
+  padding:14px;
+  border:1px solid #d1d5db;
+  border-radius:8px;
+  font-size:15px;
+  outline:none;
+}
+
+.course-form textarea{
+  resize:none;
+}
+
+.course-form input:focus,
+.course-form select:focus,
+.course-form textarea:focus{
+  border-color:#2563eb;
+}
+
+.course-form button{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:14px;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:600;
+}
+
+.course-form button:hover{
+  background:#1d4ed8;
+}

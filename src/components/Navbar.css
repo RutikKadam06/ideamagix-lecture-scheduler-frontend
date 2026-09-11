@@ -1,0 +1,45 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:28px;
+  gap:20px;
+}
+
+.navbar input{
+  flex:1;
+  background:white;
+  border:none;
+  padding:15px 18px;
+  border-radius:14px;
+  box-shadow:0 4px 15px rgba(0,0,0,.05);
+}
+
+.profile{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.avatar{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background:#2563eb;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:700;
+}
+
+@media(max-width:600px){
+  .navbar{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  .profile{
+    justify-content:flex-end;
+  }
+}

@@ -1,0 +1,37 @@
+.container{
+  display:flex;
+  min-height:100vh;
+}
+
+.main{
+  flex:1;
+  margin-left:260px;
+  padding:28px;
+  background:#f4f7fb;
+  transition:.3s;
+}
+
+.page-title{
+  font-size:28px;
+  font-weight:700;
+  margin-bottom:24px;
+}
+
+.card{
+  background:#fff;
+  border-radius:20px;
+  padding:22px;
+  box-shadow:0 8px 25px rgba(0,0,0,.06);
+}
+
+.grid{
+  display:grid;
+  gap:20px;
+}
+
+@media(max-width:900px){
+  .main{
+    margin-left:0;
+    padding:18px;
+  }
+}
